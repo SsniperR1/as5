@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
+  "start": "node api/server.js",
     "tw:build": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css --minify"
   },
   "dependencies": {
